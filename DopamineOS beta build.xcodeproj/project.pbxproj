@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10C98022F13DEE2008F9C1A /* DopamineOS beta build Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F10C98012F13DEE2008F9C1A /* DopamineOS beta build Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F10C97EC2F13DEE2008F9C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10C97C92F13DEE0008F9C1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10C97D02F13DEE0008F9C1A;
+			remoteInfo = "DopamineOS beta build";
+		};
+		F10C97F62F13DEE2008F9C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10C97C92F13DEE0008F9C1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10C97D02F13DEE0008F9C1A;
+			remoteInfo = "DopamineOS beta build";
+		};
+		F10C98032F13DEE2008F9C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10C97C92F13DEE0008F9C1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10C98002F13DEE2008F9C1A;
+			remoteInfo = "DopamineOS beta build Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F10C98202F13DEE2008F9C1A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F10C98022F13DEE2008F9C1A /* DopamineOS beta build Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F10C97D12F13DEE0008F9C1A /* DopamineOS beta build.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DopamineOS beta build.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10C97EB2F13DEE2008F9C1A /* DopamineOS beta buildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DopamineOS beta buildTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10C97F52F13DEE2008F9C1A /* DopamineOS beta buildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DopamineOS beta buildUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10C98012F13DEE2008F9C1A /* DopamineOS beta build Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DopamineOS beta build Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F10C981A2F13DEE2008F9C1A /* Exceptions for "DopamineOS beta build Extension" folder in "DopamineOS beta build Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F10C98002F13DEE2008F9C1A /* DopamineOS beta build Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F10C97D32F13DEE0008F9C1A /* DopamineOS beta build */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DopamineOS beta build";
+			sourceTree = "<group>";
+		};
+		F10C97EE2F13DEE2008F9C1A /* DopamineOS beta buildTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DopamineOS beta buildTests";
+			sourceTree = "<group>";
+		};
+		F10C97F82F13DEE2008F9C1A /* DopamineOS beta buildUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DopamineOS beta buildUITests";
+			sourceTree = "<group>";
+		};
+		F10C98052F13DEE2008F9C1A /* DopamineOS beta build Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F10C981A2F13DEE2008F9C1A /* Exceptions for "DopamineOS beta build Extension" folder in "DopamineOS beta build Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "DopamineOS beta build Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10C97CE2F13DEE0008F9C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10C97E82F13DEE2008F9C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10C97F22F13DEE2008F9C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10C97FE2F13DEE2008F9C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10C97C82F13DEE0008F9C1A = {
+			isa = PBXGroup;
+			children = (
+				F10C97D32F13DEE0008F9C1A /* DopamineOS beta build */,
+				F10C97EE2F13DEE2008F9C1A /* DopamineOS beta buildTests */,
+				F10C97F82F13DEE2008F9C1A /* DopamineOS beta buildUITests */,
+				F10C98052F13DEE2008F9C1A /* DopamineOS beta build Extension */,
+				F10C97D22F13DEE0008F9C1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F10C97D22F13DEE0008F9C1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10C97D12F13DEE0008F9C1A /* DopamineOS beta build.app */,
+				F10C97EB2F13DEE2008F9C1A /* DopamineOS beta buildTests.xctest */,
+				F10C97F52F13DEE2008F9C1A /* DopamineOS beta buildUITests.xctest */,
+				F10C98012F13DEE2008F9C1A /* DopamineOS beta build Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10C97D02F13DEE0008F9C1A /* DopamineOS beta build */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10C98212F13DEE2008F9C1A /* Build configuration list for PBXNativeTarget "DopamineOS beta build" */;
+			buildPhases = (
+				F10C97CD2F13DEE0008F9C1A /* Sources */,
+				F10C97CE2F13DEE0008F9C1A /* Frameworks */,
+				F10C97CF2F13DEE0008F9C1A /* Resources */,
+				F10C98202F13DEE2008F9C1A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10C98042F13DEE2008F9C1A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F10C97D32F13DEE0008F9C1A /* DopamineOS beta build */,
+			);
+			name = "DopamineOS beta build";
+			packageProductDependencies = (
+			);
+			productName = "DopamineOS beta build";
+			productReference = F10C97D12F13DEE0008F9C1A /* DopamineOS beta build.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F10C97EA2F13DEE2008F9C1A /* DopamineOS beta buildTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10C98242F13DEE2008F9C1A /* Build configuration list for PBXNativeTarget "DopamineOS beta buildTests" */;
+			buildPhases = (
+				F10C97E72F13DEE2008F9C1A /* Sources */,
+				F10C97E82F13DEE2008F9C1A /* Frameworks */,
+				F10C97E92F13DEE2008F9C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10C97ED2F13DEE2008F9C1A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F10C97EE2F13DEE2008F9C1A /* DopamineOS beta buildTests */,
+			);
+			name = "DopamineOS beta buildTests";
+			packageProductDependencies = (
+			);
+			productName = "DopamineOS beta buildTests";
+			productReference = F10C97EB2F13DEE2008F9C1A /* DopamineOS beta buildTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F10C97F42F13DEE2008F9C1A /* DopamineOS beta buildUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10C98272F13DEE2008F9C1A /* Build configuration list for PBXNativeTarget "DopamineOS beta buildUITests" */;
+			buildPhases = (
+				F10C97F12F13DEE2008F9C1A /* Sources */,
+				F10C97F22F13DEE2008F9C1A /* Frameworks */,
+				F10C97F32F13DEE2008F9C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10C97F72F13DEE2008F9C1A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F10C97F82F13DEE2008F9C1A /* DopamineOS beta buildUITests */,
+			);
+			name = "DopamineOS beta buildUITests";
+			packageProductDependencies = (
+			);
+			productName = "DopamineOS beta buildUITests";
+			productReference = F10C97F52F13DEE2008F9C1A /* DopamineOS beta buildUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F10C98002F13DEE2008F9C1A /* DopamineOS beta build Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10C981B2F13DEE2008F9C1A /* Build configuration list for PBXNativeTarget "DopamineOS beta build Extension" */;
+			buildPhases = (
+				F10C97FD2F13DEE2008F9C1A /* Sources */,
+				F10C97FE2F13DEE2008F9C1A /* Frameworks */,
+				F10C97FF2F13DEE2008F9C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F10C98052F13DEE2008F9C1A /* DopamineOS beta build Extension */,
+			);
+			name = "DopamineOS beta build Extension";
+			packageProductDependencies = (
+			);
+			productName = "DopamineOS beta build Extension";
+			productReference = F10C98012F13DEE2008F9C1A /* DopamineOS beta build Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10C97C92F13DEE0008F9C1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					F10C97D02F13DEE0008F9C1A = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					F10C97EA2F13DEE2008F9C1A = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = F10C97D02F13DEE0008F9C1A;
+					};
+					F10C97F42F13DEE2008F9C1A = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = F10C97D02F13DEE0008F9C1A;
+					};
+					F10C98002F13DEE2008F9C1A = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F10C97CC2F13DEE0008F9C1A /* Build configuration list for PBXProject "DopamineOS beta build" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F10C97C82F13DEE0008F9C1A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F10C97D22F13DEE0008F9C1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10C97D02F13DEE0008F9C1A /* DopamineOS beta build */,
+				F10C97EA2F13DEE2008F9C1A /* DopamineOS beta buildTests */,
+				F10C97F42F13DEE2008F9C1A /* DopamineOS beta buildUITests */,
+				F10C98002F13DEE2008F9C1A /* DopamineOS beta build Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10C97CF2F13DEE0008F9C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10C97E92F13DEE2008F9C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10C97F32F13DEE2008F9C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10C97FF2F13DEE2008F9C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10C97CD2F13DEE0008F9C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10C97E72F13DEE2008F9C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10C97F12F13DEE2008F9C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10C97FD2F13DEE2008F9C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F10C97ED2F13DEE2008F9C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10C97D02F13DEE0008F9C1A /* DopamineOS beta build */;
+			targetProxy = F10C97EC2F13DEE2008F9C1A /* PBXContainerItemProxy */;
+		};
+		F10C97F72F13DEE2008F9C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10C97D02F13DEE0008F9C1A /* DopamineOS beta build */;
+			targetProxy = F10C97F62F13DEE2008F9C1A /* PBXContainerItemProxy */;
+		};
+		F10C98042F13DEE2008F9C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10C98002F13DEE2008F9C1A /* DopamineOS beta build Extension */;
+			targetProxy = F10C98032F13DEE2008F9C1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F10C981C2F13DEE2008F9C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93P6U466SG;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DopamineOS beta build Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DopamineOS beta build Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sukhoves.DopamineOS-beta-build.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F10C981D2F13DEE2008F9C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93P6U466SG;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DopamineOS beta build Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DopamineOS beta build Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sukhoves.DopamineOS-beta-build.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F10C981E2F13DEE2008F9C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 93P6U466SG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F10C981F2F13DEE2008F9C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 93P6U466SG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F10C98222F13DEE2008F9C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93P6U466SG;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DopamineOS beta build";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sukhoves.DopamineOS-beta-build";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F10C98232F13DEE2008F9C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93P6U466SG;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DopamineOS beta build";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sukhoves.DopamineOS-beta-build";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F10C98252F13DEE2008F9C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93P6U466SG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sukhoves.DopamineOS-beta-buildTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DopamineOS beta build.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DopamineOS beta build";
+			};
+			name = Debug;
+		};
+		F10C98262F13DEE2008F9C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93P6U466SG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sukhoves.DopamineOS-beta-buildTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DopamineOS beta build.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DopamineOS beta build";
+			};
+			name = Release;
+		};
+		F10C98282F13DEE2008F9C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93P6U466SG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sukhoves.DopamineOS-beta-buildUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DopamineOS beta build";
+			};
+			name = Debug;
+		};
+		F10C98292F13DEE2008F9C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93P6U466SG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sukhoves.DopamineOS-beta-buildUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DopamineOS beta build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10C97CC2F13DEE0008F9C1A /* Build configuration list for PBXProject "DopamineOS beta build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10C981E2F13DEE2008F9C1A /* Debug */,
+				F10C981F2F13DEE2008F9C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10C981B2F13DEE2008F9C1A /* Build configuration list for PBXNativeTarget "DopamineOS beta build Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10C981C2F13DEE2008F9C1A /* Debug */,
+				F10C981D2F13DEE2008F9C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10C98212F13DEE2008F9C1A /* Build configuration list for PBXNativeTarget "DopamineOS beta build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10C98222F13DEE2008F9C1A /* Debug */,
+				F10C98232F13DEE2008F9C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10C98242F13DEE2008F9C1A /* Build configuration list for PBXNativeTarget "DopamineOS beta buildTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10C98252F13DEE2008F9C1A /* Debug */,
+				F10C98262F13DEE2008F9C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10C98272F13DEE2008F9C1A /* Build configuration list for PBXNativeTarget "DopamineOS beta buildUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10C98282F13DEE2008F9C1A /* Debug */,
+				F10C98292F13DEE2008F9C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10C97C92F13DEE0008F9C1A /* Project object */;
+}
