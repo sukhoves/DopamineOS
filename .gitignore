@@ -1,0 +1,40 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# macOS
+.DS_Store
+*.log
+
+# Dependencies
+Pods/
+Carthage/Build/
+
+# Configurations
+*.env
+GoogleService-Info.plist
+!GoogleService-Info-Sample.plist
+
+# Databases
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Safari Extension
+WebExtension/
+*.appex
+SafariWebExtension/build/
+Extension.entitlements.local
+Extension.plist.local
+
+# Temporary files
+temp/
+*.tmp
