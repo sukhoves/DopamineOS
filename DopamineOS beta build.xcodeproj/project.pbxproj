@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F10C98022F13DEE2008F9C1A /* DopamineOS beta build Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F10C98012F13DEE2008F9C1A /* DopamineOS beta build Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F1DB3AF72F2B8C0500B5482F /* xcode.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F1DB3AF62F2B8B8400B5482F /* xcode.gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F10C97EB2F13DEE2008F9C1A /* DopamineOS beta buildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DopamineOS beta buildTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10C97F52F13DEE2008F9C1A /* DopamineOS beta buildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DopamineOS beta buildUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10C98012F13DEE2008F9C1A /* DopamineOS beta build Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DopamineOS beta build Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DB3AF62F2B8B8400B5482F /* xcode.gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = xcode.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -130,6 +132,7 @@
 		F10C97C82F13DEE0008F9C1A = {
 			isa = PBXGroup;
 			children = (
+				F1DB3AF62F2B8B8400B5482F /* xcode.gitignore */,
 				F10C97D32F13DEE0008F9C1A /* DopamineOS beta build */,
 				F10C97EE2F13DEE2008F9C1A /* DopamineOS beta buildTests */,
 				F10C97F82F13DEE2008F9C1A /* DopamineOS beta buildUITests */,
@@ -297,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DB3AF72F2B8C0500B5482F /* xcode.gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

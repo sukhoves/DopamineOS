@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="popup.css">
-    <script type="module" src="popup.js"></script>
 </head>
 <body>
-    <strong>Hello World!</strong>
+    <div class="container">
+        <div id="DopamineOS">
+            DopamineOS
+        </div>
+        
+        <div id="Description">
+            Do not waste your time!
+        </div>
+        
+        <div id="timerDisplay" class="hidden"></div>
+        
+        <!-- Кнопка чистки (скопировать и вставить после скрытого блока):
+        <button id="clearStorageBtn" class="clear-btn">Очистить Storage</button>
+        <div id="clearStatus" class="status-text hidden"></div>
+        -->
+        <button id="clearStorageBtn" class="clear-btn">Очистить Storage</button>
+        <div id="clearStatus" class="status-text hidden"></div>
+        
+    </div>
+    <script src="popup.js"></script>
 </body>
 </html>

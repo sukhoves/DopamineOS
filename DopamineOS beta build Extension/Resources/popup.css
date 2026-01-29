@@ -3,13 +3,63 @@
 }
 
 body {
-    width: 100px;
-    padding: 10px;
-
+    width: 142px;
+    height: 70px;
+    margin: 0;
     font-family: system-ui;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-@media (prefers-color-scheme: dark) {
-    /* Dark Mode styles go here. */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#DopamineOS {
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+}
+
+#Description {
+    
+    font-size: 8px;
+    font-weight: 200;
+    margin: 0;
+    opacity: 0.4;
+    margin-top: -1px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12px;
+    
+}
+
+#timerDisplay {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+}
+
+.hidden {
+    display: none !important;
 }
